@@ -1,0 +1,29 @@
+.home__contact {
+    display: flex;
+    justify-content:center;
+    
+    .home__contact-div {
+        font-size: 20px;
+        margin: 2rem;
+        p {
+            color: $secondary-color;
+        }
+    }
+}
+
+.contact-header {
+    margin-bottom: 2rem;
+}
+
+#contact-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .copy {
+        margin-top: 1rem;
+    }
+    a {
+        margin: 7px;
+    }
+}
