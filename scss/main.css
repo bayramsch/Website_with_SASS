@@ -89,9 +89,10 @@ footer.horizontal {
 .top {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/my_profile1.jpg.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/my_profile1.jpg");
   background-position: center center;
+  
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,8 +247,8 @@ footer.horizontal {
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/my_profile.jpg.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/my_profile.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -280,7 +281,7 @@ footer.horizontal {
 }
 
 #head-projects {
-  color: white;
+  color:#ff652f;
 }
 
 .bottom-Projects {
@@ -301,15 +302,15 @@ footer.horizontal {
   background-size: cover;
   border-bottom: 5px solid #ff652f;
   position: relative;
-  opacity: 0.7;
+  opacity: 0.6;
+  color: #ff652f;
 }
 
 .bottom-Projects .projects:hover {
   opacity: 1;
-  -webkit-transition: all 1s;
+  -webkit-transition: all 0.8s;
   transition: all 1s;
 }
-
 .bottom-Projects .project1 {
   background-image: url(../img/project-1.jpg);
 }
@@ -342,10 +343,10 @@ footer.horizontal {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[6];
+/*    -ms-grid-rows: (1fr)[6];
         grid-template-rows: repeat(6, 1fr);
     margin: 2rem auto;
-    gap: 10px;
+    gap: 10px;*/
   }
 }
 
@@ -365,4 +366,21 @@ a {
 h1, h2, h3 {
   font-weight: 400;
 }
+#intro {
+  font-size: 17px;
+  font-style:unset;
+  font-style: italic;
+  color:#ff652f;
+}
+h4 {
+  margin-bottom: 5px;
+}
+.bio_exp {
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
+
+.prj_name {
+  margin-left: 6px;
+  margin-top: 8px;
+}
